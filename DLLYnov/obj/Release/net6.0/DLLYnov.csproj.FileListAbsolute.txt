@@ -1,0 +1,11 @@
+C:\Users\Shura\Documents\repos\DLLYnov\bin\Release\net6.0\DLLYnov.deps.json
+C:\Users\Shura\Documents\repos\DLLYnov\bin\Release\net6.0\DLLYnov.dll
+C:\Users\Shura\Documents\repos\DLLYnov\bin\Release\net6.0\DLLYnov.pdb
+C:\Users\Shura\Documents\repos\DLLYnov\obj\Release\net6.0\DLLYnov.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shura\Documents\repos\DLLYnov\obj\Release\net6.0\DLLYnov.AssemblyInfoInputs.cache
+C:\Users\Shura\Documents\repos\DLLYnov\obj\Release\net6.0\DLLYnov.AssemblyInfo.cs
+C:\Users\Shura\Documents\repos\DLLYnov\obj\Release\net6.0\DLLYnov.csproj.CoreCompileInputs.cache
+C:\Users\Shura\Documents\repos\DLLYnov\obj\Release\net6.0\DLLYnov.dll
+C:\Users\Shura\Documents\repos\DLLYnov\obj\Release\net6.0\refint\DLLYnov.dll
+C:\Users\Shura\Documents\repos\DLLYnov\obj\Release\net6.0\DLLYnov.pdb
+C:\Users\Shura\Documents\repos\DLLYnov\obj\Release\net6.0\ref\DLLYnov.dll

@@ -1,0 +1,53 @@
+﻿<Window x:Class="YnovPassword.EditProfileWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:YnovPassword"
+        mc:Ignorable="d"
+        Title="EditProfileWindow" Height="331" Width="400">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="style/Style.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Margin="5" VerticalAlignment="Center" Text="Nom:" Foreground="{StaticResource BlackBrush}"/>
+        <TextBox x:Name="NomTextBox" Grid.Row="0" Grid.Column="1" Margin="5" Style="{StaticResource TextBoxStyle}"/>
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Margin="5" VerticalAlignment="Center" Text="URL:" Foreground="{StaticResource BlackBrush}"/>
+        <TextBox x:Name="URLTextBox" Grid.Row="1" Grid.Column="1" Margin="5" Style="{StaticResource TextBoxStyle}"/>
+
+        <TextBlock Grid.Row="2" Grid.Column="0" Margin="5" VerticalAlignment="Center" Text="Login:" Foreground="{StaticResource BlackBrush}"/>
+        <TextBox x:Name="LoginTextBox" Grid.Row="2" Grid.Column="1" Margin="5" Style="{StaticResource TextBoxStyle}"/>
+
+        <TextBlock Grid.Row="3" Grid.Column="0" Margin="5" VerticalAlignment="Center" Text="Mot de passe:" Foreground="{StaticResource BlackBrush}"/>
+        <PasswordBox x:Name="PasswordTextBox" Grid.Row="3" Grid.Column="1" Margin="5" Style="{StaticResource PasswordBoxStyle}"/>
+        <Button Content="Générer" Grid.Row="3" Grid.Column="2" Margin="5" Style="{StaticResource Btn-primary}" Click="GeneratePasswordButton_Click" />
+
+        <StackPanel Grid.Row="5" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="Enregistrer" Margin="5" Style="{StaticResource Btn-primary}" Click="SaveButton_Click" />
+            <Button Content="Annuler" Margin="5" Style="{StaticResource Btn-alert}" Click="CancelButton_Click" />
+            <Button Content="Aide" Margin="5" Style="{StaticResource Btn-primary}" Click="OpenHelp_Click"/>
+            <!-- Bouton d'aide ajouté -->
+        </StackPanel>
+        <Button Content="?" Margin="10,24,32,24" Style="{StaticResource Btn-primary}" Click="HelpButton_Click" Width="NaN" Grid.Row="5" />
+
+    </Grid>
+</Window>

@@ -1,0 +1,4 @@
+C:\Users\Shura\Desktop\deb\LoggerLibrary\obj\Debug\net8.0\LoggerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shura\Desktop\deb\LoggerLibrary\obj\Debug\net8.0\LoggerLibrary.AssemblyInfoInputs.cache
+C:\Users\Shura\Desktop\deb\LoggerLibrary\obj\Debug\net8.0\LoggerLibrary.AssemblyInfo.cs
+C:\Users\Shura\Desktop\deb\LoggerLibrary\obj\Debug\net8.0\LoggerLibrary.csproj.CoreCompileInputs.cache

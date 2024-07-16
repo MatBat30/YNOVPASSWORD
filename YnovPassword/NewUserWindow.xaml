@@ -1,0 +1,57 @@
+﻿<Window x:Class="YnovPassword.NewUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Créer un nouvel utilisateur" Height="400" Width="400">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="style/Style.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Labels and inputs for each user detail -->
+        <Label Content="Login:" Grid.Row="0" Margin="5" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtLogin" Grid.Row="0" Grid.Column="1" Style="{StaticResource TextBoxStyle}"/>
+
+        <Label Content="Email:" Grid.Row="1" Margin="5" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtEmail" Grid.Row="1" Grid.Column="1" Style="{StaticResource TextBoxStyle}"/>
+
+        <Label Content="Nom:" Grid.Row="2" Margin="5" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtNom" Grid.Row="2" Grid.Column="1" Style="{StaticResource TextBoxStyle}"/>
+
+        <Label Content="Mot de passe:" Grid.Row="3" Margin="5" VerticalAlignment="Center"/>
+        <PasswordBox x:Name="txtPassword" Grid.Row="3" Grid.Column="1" Style="{StaticResource PasswordBoxStyle}"/>
+
+        <Label Content="Confirmer le mot de passe:" Grid.Row="4" Margin="5" VerticalAlignment="Center"/>
+        <PasswordBox x:Name="txtConfirmPassword" Grid.Row="4" Grid.Column="1" Style="{StaticResource PasswordBoxStyle}"/>
+
+        <!-- Buttons for actions -->
+        <StackPanel Grid.Row="5" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="5">
+            <Button Content="Sauvegarder" Margin="5" Style="{StaticResource Btn-primary}" Click="SaveButton_Click"/>
+            <Button Content="Fermer" Margin="5" Style="{StaticResource Btn-alert}" Click="CloseButton_Click"/>
+            <Button Content="Aide" Margin="5" Style="{StaticResource Btn-primary}" Click="OpenHelp_Click"/>
+            <!-- Bouton d'aide ajouté -->
+        </StackPanel>
+        <Button Content="?" Margin="153,1,23,-31" Style="{StaticResource Btn-primary}" Click="HelpButton_Click" Width="NaN" Grid.Column="1" Grid.Row="10" />
+
+    </Grid>
+</Window>

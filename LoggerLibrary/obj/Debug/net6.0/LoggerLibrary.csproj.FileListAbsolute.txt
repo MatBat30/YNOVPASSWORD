@@ -1,0 +1,12 @@
+C:\Users\Shura\Desktop\deb\LoggerLibrary\bin\Debug\net6.0\LoggerLibrary.deps.json
+C:\Users\Shura\Desktop\deb\LoggerLibrary\bin\Debug\net6.0\LoggerLibrary.dll
+C:\Users\Shura\Desktop\deb\LoggerLibrary\bin\Debug\net6.0\LoggerLibrary.pdb
+C:\Users\Shura\Desktop\deb\LoggerLibrary\obj\Debug\net6.0\LoggerLibrary.csproj.AssemblyReference.cache
+C:\Users\Shura\Desktop\deb\LoggerLibrary\obj\Debug\net6.0\LoggerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shura\Desktop\deb\LoggerLibrary\obj\Debug\net6.0\LoggerLibrary.AssemblyInfoInputs.cache
+C:\Users\Shura\Desktop\deb\LoggerLibrary\obj\Debug\net6.0\LoggerLibrary.AssemblyInfo.cs
+C:\Users\Shura\Desktop\deb\LoggerLibrary\obj\Debug\net6.0\LoggerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Shura\Desktop\deb\LoggerLibrary\obj\Debug\net6.0\LoggerLibrary.dll
+C:\Users\Shura\Desktop\deb\LoggerLibrary\obj\Debug\net6.0\refint\LoggerLibrary.dll
+C:\Users\Shura\Desktop\deb\LoggerLibrary\obj\Debug\net6.0\LoggerLibrary.pdb
+C:\Users\Shura\Desktop\deb\LoggerLibrary\obj\Debug\net6.0\ref\LoggerLibrary.dll

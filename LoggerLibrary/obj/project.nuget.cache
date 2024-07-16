@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cYTepLCwAn2OlATAYS94tgF+xjWZlXiWYmhOHjlezUXtNSmOUXCs6fwJBPQ9dFprUoeRncvJXgyryOVUH33MHA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Shura\\Desktop\\deb\\LoggerLibrary\\LoggerLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shura\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
